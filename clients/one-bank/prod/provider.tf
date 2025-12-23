@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "keycloak" {
-  url       = "http://localhost:9080"   # UTTORA BANK VM
+  url       = "http://192.168.10.58:9080"   # ONE BANK PROD
   client_id = "admin-cli"
   username  = "admin"
   password  = "admin"
